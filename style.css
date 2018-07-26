@@ -1,0 +1,125 @@
+*{margin:0;padding:0;outline:0}
+body{font-family:arial;font-size:14px;line-height:18px;color:#000;}
+
+.templete{width:960px;margin:0 auto;}
+.clear{overflow:hidden;}
+
+
+.headersection{height:85px;background:#2F2D2E;color:#fff;}
+.headersection h2 {
+    font-size: 32px;
+    padding-top: 30px;
+    text-align: center;
+    font-family: cursive;
+}
+.navsection{
+	
+	background:#9B999A;
+}
+
+.navsection ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.navsection ul li{
+	display:block;
+	float:left;
+}
+.navsection ul li a{
+	background: #cdcbcc none repeat scroll 0 0;
+	color: #444;
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 5px;
+	padding: 5px 30px;
+	text-decoration: none;
+	border-radius:5px;
+}
+
+.navsection ul li a:hover{
+	background: #2F2D2E;
+	color: #FFF;
+	
+}
+
+.contentsection{background:#FFFFFF;}
+.maincontent {
+  background: #dfdfdf4a none repeat scroll 0 0;
+  float: left;
+  margin: 15px 15px 15px 0;
+  padding: 10px;
+  width: 650px;
+}
+
+.samepost{}
+.samepost h2{
+	border-bottom: 2px solid #555555;
+	font-size:24px;
+	margin-bottom:10px;
+	padding:10px
+}
+.samepost img {
+    float: left;
+    width: 328px;
+    margin-right: 10px;
+    background: #FFFFFF;
+    padding: 5px;
+    border: 1px solid #9B999A;
+}
+.samepost p{
+	font-size:16px;
+	line-height:23 px;
+	text-align:justify;
+}
+
+.readmore {
+	float:right;
+	margin-top:10px;} 
+.readmore a{
+	background: #fff none repeat scroll 0 0;
+	border:1px solid #9b999a;
+	border-radius: 3px;
+	color:#333;
+	display:block;
+	font-size:17px;
+	padding:4px 8px;
+	text-decoration:none;
+}
+
+.readmore a:hover{
+	color:#E1483B;
+}
+
+.sidebar {
+  background: #DFDFDF none repeat scroll 0 0;
+  float: right;
+  margin-top: 15px;
+  padding: 10px;
+  width: 255px;
+}
+.samesidebar{}
+.samesidebar h2 {
+  background: #9b999a none repeat scroll 0 0;
+  border-bottom: 2px solid #555555;
+  color: #fff;
+  margin-bottom: 8px;
+  padding: 10px;
+}
+.samesidebar p {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.footersection {
+    height: 52px;
+    background: #f3f3f7;
+}
+.footersection p {
+    color: #000;
+    font-size: 21px;
+    font-weight: bold;
+    padding-top: 17px;
+    text-align: center;
+}
