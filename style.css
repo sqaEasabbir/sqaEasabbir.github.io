@@ -4,6 +4,18 @@ body{font-family:arial;font-size:14px;line-height:18px;color:#000;}
 .templete{width:960px;margin:0 auto;}
 .clear{overflow:hidden;}
 
+img {
+    border: 1px solid #ddd;
+    border-radius: 20%;
+    padding: 5px;
+    width: 150px;
+}
+
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
 
 .headersection{height:85px;background:#2F2D2E;color:#fff;}
 .headersection h2 {
