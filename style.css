@@ -4,6 +4,12 @@ body{font-family:arial;font-size:14px;line-height:18px;color:#000;}
 .templete{width:960px;margin:0 auto;}
 .clear{overflow:hidden;}
 
+#wrap {
+  max-width: 800px;
+}
+
+* {max-width: 100%}
+
 img {
     border: 1px solid #ddd;
     border-radius: 90%;
